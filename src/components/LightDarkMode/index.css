@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.container {
+  border-radius: 7px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: #000000;
+  border-style: solid;
+}
+.dark-card-container {
+  background-color: black;
+}
+.light-card-container {
+  background-color: #ffffff;
+}
+.light-head {
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.dark-head {
+  font-size: 25px;
+  font-weight: 600;
+  color: #0f0e0e;
+}
+.button {
+  padding: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
